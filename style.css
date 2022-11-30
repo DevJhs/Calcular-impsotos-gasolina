@@ -1,0 +1,150 @@
+/*
+     Desenvolvido por: Johnny 
+     Instagram:https://www.instagram.com/jhs_ms/  
+     ou jhs_ms se gostou do meu trabalho segue-la e mande um Oiiii!
+*/
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+
+}
+#main{
+    background-color: rgb(189, 189, 189);
+    margin-top: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 390px;
+    display: flex;
+    text-align: center;
+    box-shadow: 4px 3px 3px rgb(197, 197, 197);
+    
+
+}
+#Tm{
+    border: 2px solid black;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+    
+}
+#lt{
+    border: 2px solid black;
+    height: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    margin: 8px;
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+}
+.pr{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    margin: 8px;
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.pr:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.vl{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    height: 50px;
+    width: 200px;
+    font-size: 17px;  
+    text-transform: uppercase;
+    text-align: center;
+    margin: 8px;
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+    
+}
+.vl:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+}
+
+#calcular{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid black;
+    height: 50px;
+    font-size: 25px;
+    width: 230px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+    margin-bottom: 15px;
+    transition: 1s;
+
+}
+#calcular:hover{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+#ds{
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 1px 3px rgb(0, 0, 0);
+    padding: 3px;
+}
+#ds:hover{
+    color: rgb(46, 46, 46);
+}
+a{
+    text-decoration: none;
+}
+
+.caracter{
+    background-color: rgb(247, 220, 220);
+    color: rgb(243, 35, 35);
+    border: 2px solid rgb(255, 98, 98);
+    box-shadow: 2px 1px 3px rgb(228, 27, 27);
+
+}
+.block{
+    color: rgb(65, 114, 114)!important;
+    background-color: rgb(227, 253, 243);
+    filter: blur(2px);
+}
+.lock{
+    border: 1px solid black;
+    border-radius: 2px;
+    position: absolute;
+    margin-left: -120px;
+
+}
+
+
+@media screen and (max-width:600px) {
+    #main{
+
+        margin-top: 60px;
+        width: 275px;
+        height: 400px;
+    
+    }
+
+}
